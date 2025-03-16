@@ -172,7 +172,7 @@ Windows: download the [7z file](#download), extract it and run `run.bat`. You ma
 
 If you want to use Anaconda/Miniconda, you can
 
-    git clone https://github.com/ehristoforu/DeFooocus.git
+    git clone https://github.com/rupeshk98/DeFooocus.git
     cd DeFooocus
     conda env create -f environment.yaml
     conda activate defooocus
