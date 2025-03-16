@@ -98,7 +98,7 @@ Fooocus also developed many "defooocus-only" features for advanced users to get 
 
 You can directly download Fooocus with:
 
-**[>>> Click here to download <<<](https://github.com/ehristoforu/DeFooocus/releases/download/portable-release/DeFooocus_win64_portable.7z)**
+**[>>> Click here to download <<<](https://github.com/rupeshk98/DeFooocus/releases/download/portable-release/DeFooocus_win64_portable.7z)**
 
 After you download the file, please uncompress it and then run the "run.bat".
 
@@ -149,7 +149,7 @@ See also the common problems and troubleshoots [here](troubleshoot.md).
     If not, execute `git reset --hard origin/main` and check `git status` again.
 3. execute
     ```
-    git remote set-url origin https://github.com/ehristoforu/DeFooocus.git
+    git remote set-url origin https://github.com/rupeshk98/DeFooocus.git
     git pull
     ```
 6. activate your venv (not necessary when installed from 7z) and update your python packages depending on your environment (7z, venv, conda, etc.)
@@ -193,7 +193,7 @@ Or, if you want to open a remote port, use
 
 Your Linux needs to have **Python 3.10** installed, and let's say your Python can be called with the command **python3** with your venv system working; you can
 
-    git clone https://github.com/ehristoforu/DeFooocus.git
+    git clone https://github.com/rupeshk98/DeFooocus.git
     cd DeFooocus
     python3 -m venv defooocus_env
     source defooocus_env/bin/activate
@@ -213,7 +213,7 @@ Or, if you want to open a remote port, use
 
 If you know what you are doing, and your Linux already has **Python 3.10** installed, and your Python can be called with the command **python3** (and Pip with **pip3**), you can
 
-    git clone https://github.com/ehristoforu/DeFooocus.git
+    git clone https://github.com/rupeshk98/DeFooocus.git
     cd DeFooocus
     pip3 install -r requirements_versions.txt
 
@@ -263,7 +263,7 @@ Mac is not intensively tested. Below is an unofficial guideline for using Mac. Y
 You can install DeFooocus on Apple Mac silicon (M1 or M2) with macOS 'Catalina' or a newer version. Fooocus runs on Apple silicon computers via [PyTorch](https://pytorch.org/get-started/locally/) MPS device acceleration. Mac Silicon computers don't come with a dedicated graphics card, resulting in significantly longer image processing times compared to computers with dedicated graphics cards.
 
 1. Install the conda package manager and pytorch nightly. Read the [Accelerated PyTorch training on Mac](https://developer.apple.com/metal/pytorch/) Apple Developer guide for instructions. Make sure pytorch recognizes your MPS device.
-1. Open the macOS Terminal app and clone this repository with `git clone https://github.com/ehristoforu/DeFooocus.git`.
+1. Open the macOS Terminal app and clone this repository with `git clone https://github.com/rupeshk98/DeFooocus.git`.
 1. Change to the new DeFooocus directory, `cd DeFooocus`.
 1. Create a new conda environment, `conda env create -f environment.yaml`.
 1. Activate your new conda environment, `conda activate defooocus`.
@@ -311,8 +311,8 @@ Given different goals, the default models and configs of Fooocus are different:
 
 | Task | Windows | Linux args | Main Model | Refiner | Config                                                                         |
 | --- | --- | --- | --- | --- |--------------------------------------------------------------------------------|
-| General | run.bat |  | juggernautXL_v9Rundiffusion | not used | [here](https://github.com/ehristoforu/DeFooocus/blob/main/presets/default.json)   |
-| Realistic | run_realistic.bat | --preset realistic | realisticStockPhoto_v20 | not used | [here](https://github.com/ehristoforu/DeFooocus/blob/main/presets/realistic.json) |
+| General | run.bat |  | juggernautXL_v9Rundiffusion | not used | [here](https://github.com/rupeshk98/DeFooocus/blob/main/presets/default.json)   |
+| Realistic | run_realistic.bat | --preset realistic | realisticStockPhoto_v20 | not used | [here](https://github.com/rupeshk98/DeFooocus/blob/main/presets/realistic.json) |
 | Anime | run_anime.bat | --preset anime | animaPencilXL_v100 | not used | [here](https://github.com/ehristofour/DeFooocus/blob/main/presets/anime.json)     |
 
 Note that the download is **automatic** - you do not need to do anything if the internet connection is okay. However, you can download them manually if you (or move them from somewhere else) have your own preparation.
